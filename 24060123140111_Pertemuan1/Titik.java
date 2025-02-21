@@ -104,13 +104,13 @@ public class Titik{
     Titik getRefleksiX() {
        Titik T1 = new Titik(absis, ordinat * (-1));
        return T1;
-}
+    }
 
     //mengembalikan titik refleksi terhadap sumbu Y
     Titik getRefleksiY() {
         Titik T1 = new Titik(absis * (-1), ordinat);
         return T1;
-}
+    }
 
     //end class Titik
 
