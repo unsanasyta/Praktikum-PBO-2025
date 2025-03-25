@@ -14,7 +14,12 @@ public class MMain {
         Fakultas fakultasFT = new Fakultas("Fakultas Teknik", 7500000, 7000000);
         Mahasiswa mahasiswa2 = new Mahasiswa("Joel", "joe@gmail.com", "23060123140111", 4, fakultasFT);
         Dosen dosen2 = new Dosen("Jae", "jae@lecturer.co.id", "D2306012015010", 15, fakultasFT);
-
+        
+        System.out.println("----------Info Fakultas----------");
+        fakultasFSM.printInfo();
+        System.out.println("");
+        fakultasFT.printInfo();
+        System.out.println("");
         System.out.println("----------Info Mahasiswa----------");
         mahasiswa1.printInfo();
         System.out.println("");
